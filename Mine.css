@@ -1,0 +1,163 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+font-size: 1rem;
+line-height: 2rem;
+
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.stake{
+height: 500px;
+width:  500px;
+
+}
+.stake img{
+height: 100%;
+width: 300%;
+overflow: hidden;
+}
+.ALL{
+margin-top: 40px;
+}
+
+h1{
+font-family: inherit;
+text-align: center;
+background-color: orange;
+margin-left: 25rem;
+margin-right: 25rem;
+margin-bottom: 20px;
+
+}
+
+.image{
+height: 900px;
+width: 900px;
+position: relative;
+display: block;
+margin-right: 8%;
+margin-left: 10%;
+
+}
+
+.image img{
+    height: 800px;
+    width: 1000px;
+
+}
+.imagehover{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 0.5ease;
+}
+
+.imagehover:hover{
+opacity: 1;
+}
+.cite{
+text-align: center;
+position: relative;
+
+}
+a{
+background-color: lightpink;
+}
+a:hover{
+opacity: 1;
+color: orange;
+font-size: 1.5rem;
+}
+cite{
+font-style: italic;
+}
+
+
+ .inside{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+background-color: #343f4f;
+/* background: url(christian-inspirational-quotes-lead-1583893760.jpg); */
+
+ }
+
+.main{
+display: inline-flex;
+margin-bottom: 100px;
+}
+
+.main .text{
+color: black;
+font-size: 60px;
+font-weight: 400;
+line-height: 80px;
+
+
+}
+
+.main .option{
+margin-left: 15px;
+line-height: 80PX;
+/* background: red; */
+height: 90px;
+overflow: hidden;
+}
+
+
+
+.option li{
+color: #fc6d6d;
+list-style: none;
+font-size: 60px;
+font-weight: 500;
+line-height: 80px;
+position: relative;
+top: 0;
+animation: slide 4s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+    top: -300px;
+    }   
+    }
+
+.option li span{
+position: relative;
+}
+
+.option li span::after{
+content:"" ;
+position: absolute;
+left: 0;
+height: 50%;
+width: 100%;
+background: #343f4f;
+/* background: url(christian-inspirational-quotes-lead-1583893760.jpg); 
+ opacity: 0.5; */
+border-left: 2px solid  #fc6d6d ;
+animation: typing 10s steps(12) infinite;
+}
+
+@keyframes typing{
+100%{
+left: 100%;
+margin: 0 -40px 0 40px;
+}   
+}
+
+
+
+
+
+
+
+
