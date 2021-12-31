@@ -85,7 +85,7 @@ justify-content: center;
 align-items: center;
 min-height: 80vh;
 background-color: #343f4f;
-/* background: url(christian-inspirational-quotes-lead-1583893760.jpg); */
+
 
  }
 
@@ -106,7 +106,6 @@ line-height: 80px;
 .main .option{
 margin-left: 15px;
 line-height: 80PX;
-/* background: red; */
 height: 90px;
 overflow: hidden;
 }
@@ -141,8 +140,6 @@ left: 0;
 height: 50%;
 width: 100%;
 background: #343f4f;
-/* background: url(christian-inspirational-quotes-lead-1583893760.jpg); 
- opacity: 0.5; */
 border-left: 2px solid  #fc6d6d ;
 animation: typing 10s steps(12) infinite;
 }
