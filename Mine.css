@@ -10,7 +10,8 @@ line-height: 2rem;
 
 *{
 margin: 0;
-padding: 0;
+padding-left: 5%;
+padding-right: 5%;
 box-sizing: border-box;
 }
 
@@ -23,6 +24,8 @@ h1{
 font-family: inherit;
 margin-bottom: 5px;
 margin-top: 10px;
+font-size: 1.5rem;
+word-spacing: 1%;
 
 
 
@@ -33,16 +36,19 @@ max-width: 300%;
 max-height: 300%;
 align-items: center;
 margin-top: 3rem;
-margin-bottom: 0;
+margin-left: 20%;
+margin-right: 20%;
+
+
 
 }
 
 .image{
-height: 100vh;
-width: 70vh;
 position: relative;
 display: block;
-margin-left: 10%;
+
+
+
 
 }
 
@@ -50,6 +56,7 @@ margin-left: 10%;
 .image img{
     height: 100vh;
     width: 70vh;
+    
 
 }
 .imagehover{
@@ -63,6 +70,7 @@ transition: opacity 0.5ease;
 .imagehover:hover{
 opacity: 1;
 }
+
 .cite{
 text-align: center;
 position: relative;
