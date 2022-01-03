@@ -30,12 +30,15 @@ margin-top: 10px;
 font-size: 1.5rem;
 word-spacing: 0;
 font-weight: bold;
+text-align: justify;
 
 
 }
 
 p{
 font-size: 1rem;
+word-spacing: 1;
+text-align: justify;
 }
 
 .container{
