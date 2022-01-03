@@ -27,17 +27,20 @@ h1{
 font-family: inherit;
 margin-bottom: 5px;
 margin-top: 10px;
-font-size: 1.5vw;
+font-size: 1.5rem;
 word-spacing: 0;
-
-
+font-weight: bold;
 
 
 }
 
+p{
+font-size: 1rem;
+}
+
 .container{
-max-width: 300%;
-max-height: 300%;
+max-width: 200%;
+max-height: 200%;
 align-items: center;
 margin-top: 3rem;
 margin-left: 20%;
@@ -56,7 +59,7 @@ display: block;
 
 .image img{
     height: 100vh;
-    width: 100vh;
+    width: 70vh;
     align-items: center;
     
 
