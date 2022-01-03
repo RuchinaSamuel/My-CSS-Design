@@ -27,7 +27,8 @@ h1{
 font-family: inherit;
 margin-bottom: 5px;
 margin-top: 10px;
-font-size: 1.5rem;
+font-size: 1.5vw;
+word-spacing: 0;
 
 
 
@@ -87,6 +88,7 @@ opacity: 1;
 color: orange;
 font-size: 1.5rem;
 }
+
 cite{
 font-style: italic;
 }
