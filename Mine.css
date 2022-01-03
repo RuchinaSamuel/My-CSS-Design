@@ -5,6 +5,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: justify;
 font-size: 1rem;
 line-height: 2rem;
+
 }
 
 *{
@@ -41,8 +42,7 @@ height: 100vh;
 width: 100vh;
 position: relative;
 display: block;
-margin-right: 20%;
-margin-left: 20%;
+
 
 }
 
@@ -89,7 +89,7 @@ justify-content: center;
 align-items: center;
 min-height: 80vh;
 background-color: #343f4f;
-
+overflow: hidden;
 
  }
 
