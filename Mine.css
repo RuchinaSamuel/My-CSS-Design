@@ -39,17 +39,17 @@ margin-bottom: 0;
 
 .image{
 height: 100vh;
-width: 100vh;
+width: 70vh;
 position: relative;
 display: block;
-
+margin-left: 20%;
 
 }
 
 
 .image img{
     height: 100vh;
-    width: 100vh;
+    width: 70vh;
 
 }
 .imagehover{
@@ -89,7 +89,7 @@ justify-content: center;
 align-items: center;
 min-height: 80vh;
 background-color: #343f4f;
-overflow: hidden;
+
 
  }
 
@@ -110,7 +110,7 @@ line-height: 80px;
 .main .option{
 margin-left: 15px;
 line-height: 80PX;
-height: 90px;
+height: 80px;
 overflow: hidden;
 }
 
@@ -162,6 +162,13 @@ flex-wrap: wrap;
 max-width: 100%;
 height: auto;
 flex: 100%;
+}
+
+.inside{
+max-width: 100%;
+height: auto;
+flex: 100%;
+
 }
 
 
