@@ -44,17 +44,21 @@ text-align: justify;
 .container{
 max-width: 200%;
 max-height: 200%;
-align-items: center;
 margin-top: 3rem;
-margin-left: 20%;
-margin-right: 20%;
+margin-left: auto;
+margin-right: auto;
 
 
 }
 
+
 .image{
 position: relative;
 display: block;
+margin-left: auto;
+margin-right: 15%;
+border-image: auto;
+
 
 
 }
@@ -79,13 +83,20 @@ transition: opacity 0.5ease;
 opacity: 1;
 }
 
-.cite{
+.quote{
 text-align: center;
 position: relative;
-
-
+font-style: italic;
 
 }
+
+.cite{
+text-align: center;
+font-size: 1rem;
+}
+
+
+
 a{
 background-color: lightpink;
 }
@@ -95,9 +106,7 @@ color: orange;
 font-size: 1.5rem;
 }
 
-cite{
-font-style: italic;
-}
+
 
 
 
@@ -106,21 +115,13 @@ body{
 max-width: 500px;
 max-height: 500px;
 }
-.image{
+.container{
 display: block;
 flex-wrap: wrap;
 max-width: 100%;
 height: auto;
 flex: 100%;
 }
-
-.inside{
-max-width: 300%;
-height: auto;
-flex: 200%;
-
-}
-
 
 }
 
